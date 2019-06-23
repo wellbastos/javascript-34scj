@@ -11,7 +11,10 @@ const  posts = (function(){
                     let searchResult = document.querySelector("#searchResult");
                     let result = json.map(item => {
                         `<li>${item.title}</li>` 
-                }).searchResult.innerHTML = result;
+                        console.log("chegueaqui");
+                })
+                searchResult.innerHTML = result;
+            
                 });                           
             } ,         
 
